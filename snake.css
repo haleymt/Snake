@@ -1,0 +1,178 @@
+body {
+  background: black;
+  font-family: sans-serif;
+}
+
+.big-container {
+  margin-left:auto;
+  margin-right:auto;
+  width: 790px;
+  height: 560px;
+}
+
+#game-canvas {
+  border-bottom: 1px solid white;
+}
+
+#info {
+  position: absolute;
+  color: white;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+
+.instructions {
+  padding-left:80px;
+  float: left;
+}
+
+.keys {
+  padding-right:80px;
+  float: right;
+}
+
+code {
+  border: 1px solid white;
+  background: rgba(255,255,255,0.2);
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 3px;
+}
+
+#container {
+  height: 550px;
+  position: relative;
+  width: 780px;
+  /*background: black;*/
+  border: 1px solid white;
+  border-bottom: 0px;
+  margin: 0px auto;
+}
+
+#controls {
+  position: absolute;
+  top: 50% !important;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 2px;
+  display: inline-block;
+}
+
+#controls ul {
+  list-style-type: none;
+  padding: 0px;
+  font-family: 'Bungee Shade', cursive;
+}
+
+#controls p {
+  font-family: 'Bungee Shade', cursive;
+}
+
+#controls h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 2.5em;
+  letter-spacing: 0.2em;
+}
+
+#controls h2,
+#controls h3 {
+  font-family: 'Bungee Shade', cursive;
+  color: rgb(255, 204, 0);
+}
+
+#controls button {
+  font-family: 'Press Start 2P', cursive;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  outline: none !important;
+  background: white;
+  margin-bottom: 10px;
+}
+
+#controls button:hover {
+  background: rgb(255, 204, 0);
+}
+
+#controls button:focus {
+  background: rgb(255, 223, 96);
+}
+
+#status-bar {
+  height: 35px;
+  width: 100%;
+  /*background: black;*/
+  color: white;
+  border-bottom: 1px solid white;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  border-bottom: 2px solid white;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.slider-toggle {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: white;
+  position: absolute;
+  margin-top: 7px;
+}
+
+.slider-toggle:hover {
+  cursor: pointer;
+}
+
+.slider-label {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  position: absolute;
+  left: -1px;
+  right: -2px;
+}
+
+.slider-label:hover {
+  cursor: pointer;
+}
+
+.size-0 {
+  left: -7.5px;
+}
+
+.size-1 {
+  left: calc(25% - 7.5px);
+}
+
+.size-2 {
+  left: calc(50% - 7.5px);
+}
+
+.size-3 {
+  left: calc(75% - 7.5px);
+}
+
+.size-4 {
+  left: calc(100% - 7.5px);
+}
+
+/*.slider::after {
+  position: absolute;
+  height: 2px;
+  background: white;
+  width: 100%;
+}*/
